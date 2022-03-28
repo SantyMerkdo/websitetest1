@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrarse | Página Web</title>
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+  <body>
+    <header class="header">
+      <!--Logo | Izquierda-->
+      <div class="logo">
+        <p>LOGO</p>
+      </div>
+
+      <!--Botón Regresar | Derecha-->
+      <div class="box-button">
+        <a href="index.html" class="button-back">Regresar</a>
+      </div>
+    </header>
+
+    <!--Formulario-->
+    <form class="box-section">
+      <div class="form-login">
+        <div class="form-section">
+          <p>¡Registrate en nuestra página!</p>
+          <label for="" class="labels">Usuario</label>
+          <input
+            class="controls"
+            type="text"
+            name="usuario"
+            placeholder="Ingrese un usuario"
+            required
+          />
+          <label for="" class="labels">Contraseña</label>
+          <input
+            class="controls"
+            type="password"
+            name="password"
+            placeholder="Ingrese una contraseña"
+            required
+          />
+          <label for="" class="labels">Verificar Contraseña</label>
+          <input
+            class="controls"
+            type="password"
+            name="password"
+            placeholder="Ingrese de nuevo su contraseña"
+            required
+          />
+          <input class="buttons" type="submit" value="Registrarse" onclick="window.location.href='main.html'"/>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

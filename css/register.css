@@ -1,0 +1,119 @@
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .logo {
+    padding: 2%;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+  }
+  
+  header {
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .button-back {
+    float: right;
+    border-radius: 5px 5px white;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 3px;
+    padding: 10%;
+    border: 1.5px solid white;
+  }
+  
+  .button-back:hover {
+    background-color: white;
+    color: black;
+    border: 1.5px solid black;
+  }
+  
+  .box-button {
+    padding-right: 40px;
+  }
+  
+  .form-login {
+    width: 400px;
+    height: 380px;
+    background-color: rgb(17, 17, 17);
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 7px 13px 37px black;
+    padding: 20px 30px;
+    border-top: 4px solid white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+  }
+  
+  .form-login p {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .form-section {
+    padding: 30px;
+  }
+  
+  .controls {
+    width: 100%;
+    border: 1px solid white;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: black;
+    font-size: 14px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .buttons {
+    width: 40%;
+    height: 40px;
+    background: white;
+    border: none;
+    color: black;
+    float: right;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .buttons:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1.5px solid white;
+  }
+  
+  .p-question {
+    height: 40px;
+    text-align: center;
+  }
+  
+  .form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .form-login a:hover {
+    text-decoration: underline;
+  }
+  
+  .labels {
+    padding: 3px;
+  }
+  
